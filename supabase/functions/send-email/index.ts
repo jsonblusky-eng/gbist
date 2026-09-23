@@ -33,7 +33,7 @@ serve(async (req) => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          from: 'GBIST Admissions <admissions@gbist.edu.pk>',
+          from: 'GBIST Admissions <onboarding@resend.dev>',
           to: [to],
           subject,
           html: html || undefined,
